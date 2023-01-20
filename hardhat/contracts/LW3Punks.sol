@@ -24,7 +24,7 @@ contract LW3Punks is ERC721Enumerable, Ownable {
     }
 
 
-        constructor (string memory baseURI) ERC721("LW3Punks", "LW3P") {
+    constructor (string memory baseURI) ERC721("LW3Punks", "LW3P") {
         _baseTokenURI = baseURI;
     }
 
